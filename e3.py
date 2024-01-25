@@ -1,6 +1,6 @@
 """
 Franco Chavez/Jordi Chuquimarca/Pol Cerrillo
-23/01/2023
+25/01/2023
 ASIXc1C M03 UF1
 Descripcion: Programa de traducció d’insults. Crear una estructura de dues dimensions amb els insults en català
 i afegir la traducció en castellà, anglès i klingon
