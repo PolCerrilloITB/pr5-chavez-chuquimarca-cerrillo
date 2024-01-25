@@ -23,6 +23,7 @@ insults = [
 insult_CATALÀ = input("Introduce un insulto en catalán: ")
 
 #En "insult" determinaremos del 0 al 2, en el eje de las x, la posición del insulto en catalán de la primera fila#
+#En "insults" determinaremos el número de fila (eje de las y) y del 0 al 3 el insulto que queremos que imprima en x idioma#
 
 for insult in insults:
     if insult [0] == insult_CATALÀ:
