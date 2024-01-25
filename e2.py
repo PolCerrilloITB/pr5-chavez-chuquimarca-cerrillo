@@ -22,8 +22,8 @@ for i in range(len(random_num)):
         impar_sum += random_num[i]
         impar_cont += 1
 
-par_promedio = par_sum // par_cont if par_cont > 0 else 0
-impar_promedio = impar_sum // impar_cont if impar_cont > 0 else 0
+par_mitja = par_sum // par_cont if par_cont > 0 else 0
+impar_mitja = impar_sum // impar_cont if impar_cont > 0 else 0
 
-print("Promedio de números pares:", par_promedio)
-print("Promedio de números impares:", impar_promedio)
+print("Mitja pares:", par_mitja)
+print("Mitja impares:", impar_mitja)
