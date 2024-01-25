@@ -18,7 +18,7 @@ insults = [
     ["Bach", "QI'tu'","targh ghu"]
 ]
 
-#Pedimos que el usuario que introduzca un insulto en catalán para mostrar en pantalla la traducciójn en diferentes idiomas#
+#Pedimos que el usuario que introduzca un insulto en catalán para mostrar en pantalla la traducción en diferentes idiomas#
 
 insult_CATALÀ = input("Introduce un insulto en catalán: ")
 
