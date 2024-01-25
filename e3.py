@@ -8,8 +8,8 @@ El programa, demanarà a l’usuari que escrigui per teclat un insult, en catal�
 i el mostrarà traduït a castellà, anglès i klingon.
 """
 
-#Hacemos una tabla de dos dimensiones en las que las filas, determinan una série de insultos en x idioma#
-#En el eje de las y, cada fila está asignada del 0 al 3#
+#Hacemos una tabla de dos dimensiones en las que las filas, determinan una série de insultos en x idioma
+#En el eje de las y, cada fila está asignada del 0 al 3
 
 insults = [
     ["Mocós", "Capsigrany","Fill de puta"],
@@ -18,12 +18,12 @@ insults = [
     ["Bach", "QI'tu'","targh ghu"]
 ]
 
-#Pedimos que el usuario que introduzca un insulto en catalán para mostrar en pantalla la traducción en diferentes idiomas#
+#Pedimos que el usuario que introduzca un insulto en catalán para mostrar en pantalla la traducción en diferentes idiomas
 
 insult_CATALÀ = input("Introduce un insulto en catalán: ")
 
-#En "insult" determinaremos del 0 al 2, en el eje de las x, la posición del insulto en catalán de la primera fila#
-#En "insults" determinaremos el número de fila (eje de las y) y del 0 al 3 el insulto que queremos que imprima en x idioma#
+#En "insult" determinaremos del 0 al 2, en el eje de las x, la posición del insulto en catalán de la primera fila
+#En "insults" determinaremos el número de fila (eje de las y) y del 0 al 3 el insulto que queremos que imprima en x idioma
 
 for insult in insults:
     if insult [0] == insult_CATALÀ:
